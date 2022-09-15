@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    ul{
+        list-style: none;
+    }
+
+body{
+    background-image: url(./assests/Fundo.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+
+}
+body * {
+    font-family: 'inter', sans-serif;
+    line-height: 160%;
+}
+
+header {
+    margin-top: 32px;
+    height: calc(120px + 32px);
+
+}
+header div{
+    width: 120px;
+    margin: auto;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+
+    border-radius: 50%;
+
+    display: flex;
+    padding: 4px;
+
+    transition: transform .3s;
+}
+header div:hover{
+    transform: scale(1.1);
+}
+
+header div img {
+    width: 113px;
+    border-radius: 50%;
+
+}
+   
+    main{
+        max-width: 580px;
+        width: 90%;
+        margin: 32px auto;
+
+        display: grid;
+        gap: 24px;
+    }
+
+    section{
+        color: white;
+        background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+        padding-top: 4px;
+        border-radius: 10px;
+    }
+    section div{
+        background-color: #2A263A;
+        padding: 32px;
+        padding-top: 24px;
+        border-radius: 8px;
+
+    }
+    section h2 {
+        letter-spacing: -0.47px;
+    }
+    section P{
+        letter-spacing: -0.18px;
+        color: #A1A1AA;
+
+    }
+    section ul{
+        display: flex;
+        
+        gap: 16px;
+
+        margin-top: 24px;
+
+    }
+
+    section ul li{
+        transition: transform .3s;
+    }
+
+
+    section ul li:hover{
+        transform: scale(1.1);
+    }
+
+    .serie-list img{
+        width: 380px;
+        border-radius: 8px;
+    }
+    .film-list img{
+        width: 380px;
+        border-radius: 8px;
+    }
+/*animation */
+
+    header div{
+        animation: fromtop .7s 1s backwards;
+    }
+
+    @keyframes fromtop{
+        from{
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        to{
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
