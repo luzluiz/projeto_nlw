@@ -8,7 +8,7 @@
     }
 
 body{
-    background-image: url(./assests/Fundo.jpg);
+    background-image: url(./assets/Fundo.jpg);
     background-position: top center;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -78,8 +78,9 @@ header div img {
 
     }
     section ul{
+
         display: flex;
-        
+
         gap: 16px;
 
         margin-top: 24px;
@@ -96,11 +97,11 @@ header div img {
     }
 
     .serie-list img{
-        width: 380px;
+        width: 250px;
         border-radius: 8px;
     }
     .film-list img{
-        width: 380px;
+        width: 250px;
         border-radius: 8px;
     }
 /*animation */
