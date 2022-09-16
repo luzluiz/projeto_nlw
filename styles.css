@@ -26,7 +26,7 @@ header {
 
 }
 header div{
-    width: 120px;
+    width: 150px;
     margin: auto;
     background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
 
@@ -42,13 +42,13 @@ header div:hover{
 }
 
 header div img {
-    width: 113px;
+    width: 150px;
     border-radius: 50%;
 
 }
    
     main{
-        max-width: 580px;
+        max-width: auto;
         width: 90%;
         margin: 32px auto;
 
@@ -97,11 +97,11 @@ header div img {
     }
 
     .serie-list img{
-        width: 250px;
+        width: 380px;
         border-radius: 8px;
     }
     .film-list img{
-        width: 250px;
+        width: 380px;
         border-radius: 8px;
     }
 /*animation */
